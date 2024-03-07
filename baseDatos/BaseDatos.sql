@@ -59,3 +59,10 @@ CREATE TABLE DetalleMatricula(
     FOREIGN KEY (detalleMatricula_matriculaId) REFERENCES Matricula(matricula_id),
     FOREIGN KEY (detalleMatricula_semestreMateriaId) REFERENCES SemestreMateria(semestreMateria_id)
 );
+
+-- nombrePRoducto, precio unitario, cantidad en bodega -> tabla Producto
+-- id, codigoFactura, fechaFactura, IdClient -> Factura
+-- id, idCondigoFactura, idProducto, cantidadProducto, valor    Unitario, valorTotal -> detalle Factura
+
+SELECT *
+FROM
