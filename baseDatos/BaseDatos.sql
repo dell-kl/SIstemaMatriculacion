@@ -1,6 +1,7 @@
 CREATE DATABASE BaseDatos_Matriculacion;
 USE BaseDatos_Matriculacion;
 
+
 CREATE TABLE Usuario(
     usuario_id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
     usuario_cedula NVARCHAR(MAX),
